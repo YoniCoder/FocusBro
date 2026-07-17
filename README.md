@@ -17,7 +17,7 @@ A fully-featured Pomodoro timer for Android with background operation, analytics
 ## Tech Stack
 
 - **Language:** Kotlin
-- **UI:** Jetpack Compose
+- **UI:** XML Views
 - **Database:** Room (SQLite)
 - **Services:** Foreground Service, WakeLock
 - **Architecture:** MVVM pattern
@@ -26,20 +26,19 @@ A fully-featured Pomodoro timer for Android with background operation, analytics
 ## Screenshots
 
 ### Home Screen
-<img width="720" height="1600" alt="screenshot 1" src="https://github.com/user-attachments/assets/5ac045c6-3578-42a0-83d6-dfe2c2ebbd5c" />
+<img src="https://github.com/user-attachments/assets/5ac045c6-3578-42a0-83d6-dfe2c2ebbd5c" alt="Home Screen" width="300"/>
 
 
 ### Active Session
-<img width="720" height="1600" alt="screenshot 2" src="https://github.com/user-attachments/assets/65868083-359c-4873-bfb5-2086e4e928b1" />
+<img src="https://github.com/user-attachments/assets/65868083-359c-4873-bfb5-2086e4e928b1" alt="Active Session" width="300"/>
 
 
 ### Analytics Dashboard
-<img width="720" height="1600" alt="screenshot 3" src="https://github.com/user-attachments/assets/2e65d659-92f4-4156-aa83-ae500d7b0e92" />
+<img src="https://github.com/user-attachments/assets/2e65d659-92f4-4156-aa83-ae500d7b0e92" alt="Analytics Dashboard" width="300"/>
 
 
 ### Tags Management
-<img width="720" height="1600" alt="screenshot 4" src="https://github.com/user-attachments/assets/d8027629-84ae-44cb-94b7-f5e8538bed99" />
-
+<img src="https://github.com/user-attachments/assets/d8027629-84ae-44cb-94b7-f5e8538bed99" alt="Tags Management" width="300"/>
 
 ## What I Learned
 
