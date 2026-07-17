@@ -26,16 +26,20 @@ A fully-featured Pomodoro timer for Android with background operation, analytics
 ## Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/screenshot1.png)
+<img width="720" height="1600" alt="screenshot 1" src="https://github.com/user-attachments/assets/5ac045c6-3578-42a0-83d6-dfe2c2ebbd5c" />
+
 
 ### Active Session
-![Active Session](screenshots/screenshot2.png)
+<img width="720" height="1600" alt="screenshot 2" src="https://github.com/user-attachments/assets/65868083-359c-4873-bfb5-2086e4e928b1" />
+
 
 ### Analytics Dashboard
-![Analytics](screenshots/screenshot3.png)
+<img width="720" height="1600" alt="screenshot 3" src="https://github.com/user-attachments/assets/2e65d659-92f4-4156-aa83-ae500d7b0e92" />
+
 
 ### Tags Management
-![Tags](screenshots/screenshot4.png)
+<img width="720" height="1600" alt="screenshot 4" src="https://github.com/user-attachments/assets/d8027629-84ae-44cb-94b7-f5e8538bed99" />
+
 
 ## What I Learned
 
