@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/white"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/sessionTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work"
+        android:textColor="@color/gray_secondary"
+        android:textSize="16sp"
+        android:fontFamily="@font/sf_ui_medium"
+        android:layout_marginTop="16dp" />
+
+    <com.yonas.focusbro.views.CircularTimerView
+        android:id="@+id/sessionCircularTimer"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="32dp" />
+
+    <TextView
+        android:id="@+id/sessionTimeDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-189dp"
+        android:text="25:00"
+        android:textColor="@color/black_primary"
+        android:textSize="56sp"
+        android:fontFamily="@font/sf_ui_heavy" />
+
+    <TextView
+        android:id="@+id/sessionTimerType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="Just do your job bro!!"
+        android:textColor="@color/green_success"
+        android:textSize="18sp"
+        android:fontFamily="@font/sf_ui_semibold" />
+
+    <TextView
+        android:id="@+id/quoteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Focus on being productive instead of busy."
+        android:textColor="@color/gray_secondary"
+        android:textSize="16sp"
+        android:fontFamily="@font/sf_ui_medium"
+        android:gravity="center"
+        android:paddingHorizontal="24dp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <!-- Pause Button -->
+        <Button
+            android:id="@+id/sessionPauseButton"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="Pause"
+            android:background="@drawable/bg_button"
+            app:backgroundTint="@null"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:fontFamily="@font/sf_ui_semibold" />
+
+        <!-- Quit Button -->
+        <Button
+            android:id="@+id/quitButton"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Quit Session"
+            android:background="@drawable/bg_button_reset"
+            app:backgroundTint="@null"
+            android:textColor="@color/black_primary"
+            android:textSize="16sp"
+            android:fontFamily="@font/sf_ui_semibold" />
+
+    </LinearLayout>
+
+</LinearLayout>

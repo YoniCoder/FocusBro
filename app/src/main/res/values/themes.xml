@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Light Theme -->
+    <style name="Theme.FocusBro" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/black_primary</item>
+        <item name="colorPrimaryVariant">@color/black_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/gray_secondary</item>
+        <item name="colorOnSecondary">@color/black_primary</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:fontFamily">@font/sf_ui_medium</item>
+    </style>
+
+    <style name="ToolbarTitle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/black_primary</item>
+        <item name="android:fontFamily">@font/sf_ui_bold</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme -->
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#F5F5F7</color>
+    <color name="gray_border">#E5E5EA</color>
+    <color name="gray_medium">#C6C6C8</color>
+    <color name="gray_secondary">#86868B</color>
+    <color name="black_primary">#1D1D1F</color>
+    <color name="green_success">#34C759</color>
+    <color name="red_error">#FF3B30</color>
+    <color name="blue_link">#007AFF</color>
+
+    <!-- Dark Theme -->
+    <color name="dark_bg">#000000</color>
+    <color name="dark_card">#1C1C1E</color>
+    <color name="dark_text">#FFFFFF</color>
+    <color name="dark_secondary">#8E8E93</color>
+    <color name="dark_border">#38383A</color>
+</resources>

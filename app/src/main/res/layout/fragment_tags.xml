@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🏷️ Manage Tags"
+        android:textColor="@color/black_primary"
+        android:textSize="28sp"
+        android:fontFamily="@font/sf_ui_bold"
+        android:layout_marginBottom="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tagsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/addTagButton"
+        android:layout_width="190dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="87dp"
+
+        android:text="Add New Tag"
+        android:background="@drawable/bg_button"
+        app:backgroundTint="@null"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/sf_ui_semibold"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

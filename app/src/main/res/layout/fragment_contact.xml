@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FocusBro"
+        android:textColor="@color/black_primary"
+        android:textSize="28sp"
+        android:fontFamily="@font/sf_ui_bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version 1.0"
+        android:textColor="@color/gray_secondary"
+        android:textSize="14sp"
+        android:fontFamily="@font/sf_ui_medium"
+        android:layout_marginBottom="24dp" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="2dp"
+        android:background="@color/gray_border"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed By"
+        android:textColor="@color/gray_secondary"
+        android:textSize="12sp"
+        android:fontFamily="@font/sf_ui_medium" />
+
+    <TextView
+        android:id="@+id/developerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Yonas Tedla"
+        android:textColor="@color/black_primary"
+        android:textSize="20sp"
+        android:fontFamily="@font/sf_ui_bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📧 Email"
+            android:textColor="@color/gray_secondary"
+            android:textSize="12sp"
+            android:fontFamily="@font/sf_ui_medium" />
+
+        <TextView
+            android:id="@+id/developerEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yonastedla06@gmail.com"
+            android:textColor="@color/black_primary"
+            android:textSize="16sp"
+            android:fontFamily="@font/sf_ui_medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="📱 Phone"
+            android:textColor="@color/gray_secondary"
+            android:textSize="12sp"
+            android:fontFamily="@font/sf_ui_medium" />
+
+        <TextView
+            android:id="@+id/developerPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+251707106234"
+            android:textColor="@color/black_primary"
+            android:textSize="16sp"
+            android:fontFamily="@font/sf_ui_medium" />
+
+    </LinearLayout>
+
+</LinearLayout>
